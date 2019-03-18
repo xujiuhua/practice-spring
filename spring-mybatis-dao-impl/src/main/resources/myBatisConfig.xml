@@ -8,6 +8,5 @@
 	</settings>
 	<typeAliases>
 		<typeAlias alias="User" type="com.baobaotao.domain.User" />
-		<typeAlias alias="LoginLog" type="com.baobaotao.domain.LoginLog" />
 	</typeAliases>
 </configuration>

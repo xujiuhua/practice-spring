@@ -8,5 +8,4 @@ public interface UserDao {
 
 	User findUserByUserName(final String userName);
 
-	void updateLoginInfo(User user);
 }

@@ -33,9 +33,4 @@ public class UserDaoImpl implements UserDao{
     public User findUserByUserName(String userName) {
         return sqlSessionTemplate.selectOne("com.baobaotao.dao.UserDao.findUserByUserName", userName);
     }
-
-    @Override
-    public void updateLoginInfo(User user) {
-        sqlSessionTemplate.update("com.baobaotao.dao.UserDao.updateLoginInfo", user);
-    }
 }

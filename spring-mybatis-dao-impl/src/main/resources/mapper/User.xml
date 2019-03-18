@@ -26,11 +26,4 @@
 		WHERE user_name = #{userName}
     </select>
 
-	<update id="updateLoginInfo" parameterType="com.baobaotao.domain.User">
-		UPDATE
-		   t_user
-		SET last_visit=#{lastVisit},last_ip=#{lastIp},credits=#{credits}
-		WHERE user_id = #{userId}
-	</update>
-
 </mapper>
