@@ -1,0 +1,11 @@
+spring:
+  messages:
+    basename: i18n/messages   # 设置国际化配置文件存放在classpath:/i18n目录下
+    encoding: utf-8           # 设定message bundles编码方式，默认为UTF-8
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/META-INF/resources/, classpath:/resources/, classpath:/static/, classpath:/public/

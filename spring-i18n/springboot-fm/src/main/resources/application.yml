@@ -1,0 +1,8 @@
+spring:
+  messages:
+    basename: i18n/messages   # \u8BBE\u7F6E\u56FD\u9645\u5316\u914D\u7F6E\u6587\u4EF6\u5B58\u653E\u5728classpath:/i18n\u76EE\u5F55\u4E0B
+    encoding: utf-8           # \u8BBE\u5B9Amessage bundles\u7F16\u7801\u65B9\u5F0F\uFF0C\u9ED8\u8BA4\u4E3AUTF-8
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:/META-INF/resources/, classpath:/resources/, classpath:/static/, classpath:/public/
