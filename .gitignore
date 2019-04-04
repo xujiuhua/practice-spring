@@ -5,3 +5,5 @@
 *.iml
 modules.xml
 .idea/misc.xml
+/spring-i18n/springboot-fm/target/
+/spring-i18n/springboot-thy/target/

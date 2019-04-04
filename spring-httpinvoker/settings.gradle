@@ -1,0 +1,4 @@
+rootProject.name = 'spring-httpinvoker'
+include 'demo1-server'
+include 'demo1-client'
+

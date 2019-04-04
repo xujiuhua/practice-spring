@@ -1,0 +1,24 @@
+version 'unspecified'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+def springVersion = "4.3.2.RELEASE"
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile (
+            'org.springframework:spring-web:'       + springVersion,
+            'org.springframework:spring-webmvc:'    + springVersion,
+
+            'org.springframework:spring-test:'      + springVersion
+    )
+}
